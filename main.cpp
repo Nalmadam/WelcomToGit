@@ -10,5 +10,9 @@ int main(int argcs, char** argvs){
 	int sum = cal.Sum(a,b);
 	std::cout << "Sum of " << a << " and " << b << " is " << sum << std::endl;
 	
+	// Sample for sub
+	int sub = cal.Sub(a,b);
+	std::cout << "Sub of " << a << " to " << b << " is " << sub << std::endl;
+	
 	return 0;
 }
