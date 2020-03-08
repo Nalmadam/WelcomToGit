@@ -6,6 +6,7 @@ class Calculator {
 	Calculator();
 	~Calculator();
 	int Sum(int num1, int num2);
+	int Sub(int num1, int num2);
 };
 
 #endif  // __CALCULATOR_HPP__
